@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: burlywood;
+            height: 600px;
+            width: 500px;
+            padding: 50px;
+            margin-top: 10px;
+            margin-left: 400px;
+            
+        }
+        label
+        {
+            width: 200px;
+            display: inline-block ;
+        
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form>
+            <label>Name</label>
+            <input type="text" required><br><br>
+            <label>Enter mobile</label>
+            <input type="number" required><br><br>
+            <label for="">Enter email</label>
+            <input type="email" required><br><br>
+            <label for="">Password</label>
+            <input type="password"required maxlength="10" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*?[0-9])(?=.*?[!@#$%^&*+`~=?\|<>/]).{8,}" ><br><br>
+            <label for="">dob</label>
+            <input type="date" required><br><br>
+            <label for="">Time</label>
+            <input type="time" required><br><br>
+            <label for="">Address</label>
+            <textarea name="" id="" cols="30" rows="5" onclick="" required></textarea><br><br>
+            <label for="">Gender</label>
+            <input type="radio" name="gender" value="Male" required>Male
+            <input type="radio" name="gender" value="Female" required>Female<br><br>
+            <label for="">Qualification</label>
+            <input type="checkbox" required>sslc
+            <input type="checkbox" required>PlusTwo
+            <input type="checkbox" required>Degree <br><br>
+            <label for="">District</label>
+            <select name="" id="">
+                <option value="">Select District</option>
+                <option value="">hhh</option>
+                <option value="">ppp</option>
+                <option value="">cc</option>
+            </select><br><br>
+            <input type="file"><br><br>
+            <input type="button" style="margin-left: 200px;" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
