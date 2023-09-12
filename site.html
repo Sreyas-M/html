@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <style>
+        .btn-primary {
+            color: #fff;
+            background: linear-gradient(95.04deg, #ffaa3f .82%, #f35b04 97.35%);
+            border: 0;
+            transition: all .5s;
+        }
+
+        #h1edit {
+            font-family: "Poppins", sans-serif;
+            font-size: 40px;
+            color: #000000;
+            font-weight: 700;
+            padding: auto;
+        }
+
+        .prcImg {
+            padding-bottom: 2px;
+        }
+
+        .prcImg img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+        }
+
+        .prcCont {
+            color: #141414;
+            font-weight: 600;
+            font-family: "Poppins";
+            font-size: 16px;
+            line-height: 25px;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        img,
+        svg {
+            vertical-align: middle;
+        }
+
+        *,
+        ::after,
+        ::before {
+            box-sizing: border-box;
+        }
+
+        img {
+            overflow-clip-margin: content-box;
+            overflow: clip;
+        }
+
+        section.process ul li:nth-child(odd):before {
+            content: "";
+            position: absolute;
+            background: url(https://cdn-ghnlj.nitrocdn.com/JBtnaqNLUFzDSKzWbkatZJZXEwtGDlyg/assets/images/optimized/rev-c70a8bc/thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/dot-arrow1.png) no-repeat left center;
+            left: 50%;
+            bottom: -5px;
+            width: 331px;
+            height: 64px;
+            background-size: 65%;
+        }
+
+        section.process ul li:nth-child(even):before {
+            content: "";
+            position: absolute;
+            background: url(https://cdn-ghnlj.nitrocdn.com/JBtnaqNLUFzDSKzWbkatZJZXEwtGDlyg/assets/images/optimized/rev-c70a8bc/thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/dot-arrow2.png) no-repeat left center;
+            left: 50%;
+            top: -5px;
+            width: 331px;
+            height: 64px;
+            background-size: 65%;
+        }
+
+        .ftrTop {
+            border-bottom: 2px solid #20201e;
+        }
+
+        .footerTxt {
+            font-family: "Poppins";
+            font-weight: 600;
+            font-size: 16px;
+            max-width: 800px;
+            margin: 0px auto;
+            padding-bottom: 74px;
+            padding: auto;
+        }
+
+        .prcCvr {
+            padding: 45px 25px 18px;
+            border-radius: 0px 50px 50px 50px;
+            background: #fff7f0;
+            margin-bottom: 40px;
+            border: 3px solid transparent;
+            transition: all .5s;
+            min-height: 300px;
+        }
+
+        section.process ul li {
+            float: left;
+            width: 17%;
+            padding: 50px 17px;
+            text-align: center;
+            border-radius: 0px 50px 50px 50px;
+            background: none;
+            min-height: 317px;
+            margin: 0px 15px;
+            position: relative;
+        }
+
+        #getbut {
+            margin-left: 50px;
+        }
+
+        #enabalg {
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            color: #f3eaea;
+        }
+
+        .btn {
+            min-width: 146px;
+            height: 50px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: left;
+            font-size: 14px;
+            border-radius: 5px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            text-align: left;
+        }
+
+        .advButton {
+            margin: 52px 0;
+        }
+
+        .mt-0 {
+            margin-top: 0 !important;
+            margin-left: 300px;
+        }
+
+        #navbarSupportedContent {
+            margin-left: 250px;
+        }
+
+        #wow {
+            border-radius: 0px 40px 40px 40px;
+            height: max-content;
+            width: 180px;
+        }
+
+        #woww {
+            padding-top: 50px;
+            list-style: none;
+        }
+
+        section.bannersec {
+            margin-top: 5px;
+            background: url(https://cdn-ghnlj.nitrocdn.com/JBtnaqNLUFzDSKzWbkatZJZXEwtGDlyg/assets/images/optimized/rev-a1a6314/thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/banner.jpg) no-repeat center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 642px;
+            background-size: cover;
+        }
+
+        .bannButton .btn.getT {
+            padding: 10px 42px;
+        }
+
+        bannButton .btn {
+            padding: 10px 22px;
+            width: 195px;
+            margin: 0px 5px;
+        }
+        section {
+            width: 100%;
+            display: block;
+        }
+
+        div {
+            display: block;
+        }
+
+        section.process {
+            text-align: center;
+            padding: 6rem 0;
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img alt="Futura Labs" title="Futura Labs"
+                        nitro-lazy-src="https://cdn-ghnlj.nitrocdn.com/JBtnaqNLUFzDSKzWbkatZJZXEwtGDlyg/assets/images/optimized/rev-a1a6314/thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/futura-labs.svg"
+                        class=" lazyloaded" decoding="async" nitro-lazy-empty="" id="MTQ1OjIwOQ==-1"
+                        src="https://cdn-ghnlj.nitrocdn.com/JBtnaqNLUFzDSKzWbkatZJZXEwtGDlyg/assets/images/optimized/rev-a1a6314/thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/futura-labs.svg"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Course 1</a></li>
+                                <li><a class="dropdown-item" href="#">Course 2</a></li>
+                                <li><a class="dropdown-item" href="#">Course 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" aria-current="page" href="#">Placements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#">Careers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" aria-current="page" href="#">Contacts</a>
+                        </li>
+                        <div class="btn-group" id="getbut" role="group" aria-label="Basic mixed styles example">
+                            <button type="button" class="btn-group btn btn-primary">Get In Touch <svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg></button>
+
+                        </div>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="bannersec">
+        <div class="container" id="enabalg">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 style="font-size: 80px; color: #ffffff;">Enable.Transform.Accelerate.</h1>
+                    <p>"Be a part of FUTURA LABS, the best learning platform to transform you into a skilled and trained
+                        IT professional. We are one of Calicut's most trusted&nbsp;software training institutes, with
+                        the highest placement records. Join our hands to get your dream job and stand firm in the
+                        industry with all the confidence and proficiency.
+                    </p>
+                    <div class="bannButton"><button class="btn btn-primary getT"><strong>Get In Touch</strong> <svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                            </svg></button>
+                        <button class="btn btn-primary"><strong>Call:7356640701</strong> <svg
+                                xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor"
+                                class="bi bi-arrow-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                            </svg></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="process">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 id="h1edit">Our Process</h2>
+                    <ul>
+                        <div id="woww">
+                            <li>
+                                <div id="wow" style=" background-color: #f78da7;">
+                                    <div style="padding-top: 15px;" class="prcImg"><img src="./images/understanding.png"
+                                            alt="no"></div>
+                                    <div style="padding: 10px;" class="prcCont">
+                                        <p><b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo quia
+                                                autem nisi inventore quibusdam repudiandae molestias blanditiis, quod
+                                                natus harum!</b></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div id="wow" style="background-color: #cf2e2e;">
+                                    <div style="padding-top: 15px;" class="prcImg"><img src="./images/student.png"
+                                            alt="no"></div>
+                                    <div style="padding: 10px;" class="prcCont">
+                                        <p><b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo quia
+                                                autem nisi inventore quibusdam repudiandae molestias blanditiis, quod
+                                                natus harum!</b></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div id="wow" style="background-color:  #8ed1fc;;">
+                                    <div style="padding-top: 15px;" class="prcImg"><img src="./images/professional.png"
+                                            alt="no"></div>
+                                    <div style="padding: 10px;" class="prcCont">
+                                        <p><b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo quia
+                                                autem nisi inventore quibusdam repudiandae molestias blanditiis, quod
+                                                natus harum!</b></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div id="wow" style="background-color:  #7bdcb5;">
+                                    <div style="padding-top: 15px;" class="prcImg"><img src="./images/skills.png"
+                                            alt="no"></div>
+                                    <div style="padding: 10px;" class="prcCont">
+                                        <p><b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo quia
+                                                autem nisi inventore quibusdam repudiandae molestias blanditiis, quod
+                                                natus harum!</b></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div id="wow" style="background-color:  #9896f0;">
+                                    <div style="padding-top: 15px;" class="prcImg"><img src="./images/oppertunity.png"
+                                            alt="no"></div>
+                                    <div style="padding: 10px;" class="prcCont">
+                                        <p><b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo quia
+                                                autem nisi inventore quibusdam repudiandae molestias blanditiis, quod
+                                                natus harum!</b></p>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="advButton mt-0"><button class="btn btn-primary" title="heyy">Talk to our Career Advisor today on
+                    07994420046 or Enquire Now</button></div>
+            <div class="ftrTop" style="padding-left: 5px;">
+                <div class="footerTxt">
+                    " Do you wish to explore, learn and excel a new skill? Is it time to improve your efficiency to be
+                    on par with the latest trends? Futura Labs is the exact platform you are looking for. "
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
