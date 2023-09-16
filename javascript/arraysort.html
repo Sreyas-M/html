@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let a=[84,74,7,43,10,55];
+        //Asc order
+        a.sort(function(a,b){
+            return(a-b)
+        });
+        document.write(a);
+        //Des order
+        document.write("<br>");
+        a.sort(function(a,b){
+            return(b-a)
+        });
+        document.write(a);
+    </script>
+    
+</body>
+</html>

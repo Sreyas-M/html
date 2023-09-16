@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        const cars=["bmw","benz","audi"]
+        const color=["white",'black','green']
+        console.log(cars);
+        console.log(color);
+        color.pop();
+        document.write(color +"<br>");
+        cars.push("ferrari");
+        document.write(cars);
+        // document.write(cars[0]);
+
+        color.splice(2,1,"pink","yellow");
+        document.write("<br>" +color);
+        delete cars[1];
+        document.write("<br>" +cars);
+
+        color.sort();
+        document.write("<br>" +color)
+    </script>
+</body>
+</html>

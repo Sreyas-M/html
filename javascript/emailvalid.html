@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function emailValidation(email_id){
+            let em_pat= /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
+            if(em_pat.test(email_id)){
+                console.log(`${email_id} is valid`);
+            }else{
+                console.log(`${email_id} is not valid`);
+            }
+        }
+
+        emailValidation(`sreyas@gmail.com`);
+        emailValidation(`ggmail.com`);
+    </script>
+</body>
+</html>

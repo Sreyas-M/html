@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="myimg" onclick="changeImg()" src="https://cdn-icons-png.flaticon.com/512/32/32299.png" width="50px" height="50px">
+    <script>
+        function changeImg(){
+            const cimg=document.getElementById("myimg");
+            if(cimg.src.match("bulb-off")){
+                cimg.src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.pngitem.com%2Fpimgs%2Fm%2F9-94709_transparent-light-bulb-png-vector-bulb-icon-png.png&tbnid=pSBElcq8s0eZTM&vet=12ahUKEwidppOgq62BAxWYmWMGHU5sAxAQMygEegQIARA-..i&imgrefurl=https%3A%2F%2Fwww.pngitem.com%2Fmiddle%2FJhJTR_transparent-light-bulb-png-vector-bulb-icon-png%2F&docid=-rwHvVlvgU0kIM&w=860&h=1060&itg=1&q=bulb%20on%20images&ved=2ahUKEwidppOgq62BAxWYmWMGHU5sAxAQMygEegQIARA-";
+            }else
+            {
+                cimg.src="https://cdn-icons-png.flaticon.com/512/32/32299.png";
+            }
+        }
+    </script>
+</body>
+</html>
